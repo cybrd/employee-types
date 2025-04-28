@@ -1,7 +1,11 @@
 {
   "name": "@cybrd/employee-types",
-  "version": "0.1.2",
-  "main": "index.js",
+  "version": "0.1.3",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
   "scripts": {
     "build": "npx rimraf ./dist && npx prettier --check . && npx eslint src && npx tsc",
     "test": "npx vitest"
