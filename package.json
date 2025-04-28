@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx rimraf ./dist && npx prettier --write . && npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx rimraf ./dist && npx prettier --check . && npx tsc",
+    "test": "npx vitest"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,13 @@
   "homepage": "https://github.com/cybrd/employee-types#readme",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.1",
+    "vitest": "^3.1.2"
   }
 }
