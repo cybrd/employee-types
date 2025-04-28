@@ -1,0 +1,25 @@
+{
+  "name": "@cybrd/employee-types",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rimraf ./dist && npx prettier --write . && npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybrd/employee-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybrd/employee-types/issues"
+  },
+  "homepage": "https://github.com/cybrd/employee-types#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}
